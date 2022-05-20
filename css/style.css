@@ -141,7 +141,7 @@ h1, h2 {
     image-resolution: 100px;
     width: 200px;
     height: 200px;;
-    border-radius: 5px;
+    border-radius: 12px;
     
 }
 
@@ -222,6 +222,7 @@ h1, h2 {
 .BurguerBig img {
     height:300px;
     width:auto;
+    border-radius: 20px;
     image-resolution: 100px;
 }
 
