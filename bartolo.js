@@ -1,4 +1,4 @@
-/*let bartolo = [
+let bartolo = [
     {
         id: 1,
         name: 'Rott',
@@ -47,4 +47,4 @@
         ],
         description: 'Pão de Batata, mussarela, calabresa picada, picles, cebola caramelizada, blend de costela'
       },
-]*/
+]
