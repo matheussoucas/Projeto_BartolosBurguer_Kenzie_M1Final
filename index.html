@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/bacon.jpeg" />
+
+    <title>BARTOLO'S BURGUER</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de Burguer na lista e no carrinho -->
+    <div class="models">
+
+        <!-- Burguer na lista -->
+        <div class="Burguer-item">
+            <a href="">
+                <div class="Burguer-item--img"><img src="" /></div>
+                <div class="Burguer-item--add">+</div>
+            </a>
+            <div class="Burguer-item--price">R$ --</div>
+            <div class="Burguer-item--name">--</div>
+            <div class="Burguer-item--desc">--</div>
+        </div>
+
+        <!-- Burguer no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1 class="empresa">BARTOLO'S BURGUER</h1>
+        <div class="pesqtotal">
+            <nav class="pesq">Todos</nav>
+            <nav class="pesq">Promoção do Dia</nav>
+            <div class="pesq"><input type="text">pesquisar</div>
+        </div>
+        <div class=" menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <h2>BURGUER</h2>
+
+        <div class="Burguer-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>SEU PEDIDO</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .BurguerWindowArea -->
+    <div class="BurguerWindowArea">
+        <div class="BurguerWindowBody">
+            <div class="BurguerInfo--cancelMobileButton">Voltar</div>
+            <div class="BurguerBig">
+                <img src="" />
+            </div>
+            <div class="BurguerInfo">
+                <h1>--</h1>
+                <div class="BurguerInfo--desc">--</div>
+                <div class="BurguerInfo--sizearea">
+                    <div class="BurguerInfo--sector">Tamanho</div>
+                    <div class="BurguerInfo--sizes">
+                        <div data-key="80" class="BurguerInfo--size"> SIMPLES <span>--</span></div>
+                        <div data-key="120" class="BurguerInfo--size">DUPLO <span>--</span></div>
+                        <div data-key="180" class="BurguerInfo--size selected">TRIPLO <span>--</span></div>
+                    </div>
+                </div>
+                <div class="BurguerInfo--pricearea">
+                    <div class="BurguerInfo--sector">Preço</div>
+                    <div class="BurguerInfo--price">
+                        <div class="BurguerInfo--actualPrice">R$ --</div>
+                        <div class="BurguerInfo--qtarea">
+                            <button class="BurguerInfo--qtmenos">-</button>
+                            <div class="BurguerInfo--qt">1</div>
+                            <button class="BurguerInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="BurguerInfo--addButton">Adicionar ao carrinho</div>
+                <div class="BurguerInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .BurguerWindowArea -->
+
+    <script src="bartolo.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
