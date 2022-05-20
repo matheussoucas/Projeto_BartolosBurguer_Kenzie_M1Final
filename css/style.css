@@ -141,6 +141,7 @@ h1, h2 {
     image-resolution: 100px;
     width: 200px;
     height: 200px;;
+    border-radius: 5px;
     
 }
 
